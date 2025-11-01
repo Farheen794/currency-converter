@@ -24,10 +24,12 @@ function App() {
   }
    return (
     <div
-        className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat bg-amber-100"
-        
+        className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
+        style={{
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('https://images.pexels.com/photos/4386158/pexels-photo-4386158.jpeg')`,
+        }}
     >
-        <h1 className='text-5xl justify-center font-bold'>Currency Convertor</h1>
+        <h1 className='text-5xl justify-center font-bold text-white'>Currency Convertor</h1>
         <div className="w-full">
             <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                 <form
